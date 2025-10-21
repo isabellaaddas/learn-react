@@ -1,0 +1,12 @@
+#about-div {
+    padding:3%;
+    margin:auto;
+}
+
+#about-div h1 {
+    color:crimson;
+}
+
+#about-div p {
+    color:darkslategrey;
+}

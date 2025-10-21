@@ -1,0 +1,10 @@
+#header {
+    padding:2.5px;
+    background:blanchedalmond;
+}
+
+#header h1 {
+    font-style:italic;
+    color:darkgreen;
+    text-align:center;
+}
