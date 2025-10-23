@@ -1,10 +1,19 @@
-#header {
+#main-header {
     padding:2.5px;
-    background:blanchedalmond;
+    background:royalblue;
+    position:relative;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
 }
 
-#header h1 {
-    font-style:italic;
-    color:darkgreen;
+#main-header h1 {
+    color:white;
     text-align:center;
+}
+
+#logo {
+    width:15%;
+    margin:auto;
+    position:absolute;
+    bottom:-25px;
 }
