@@ -1,19 +1,22 @@
 #main-header {
-    padding:2.5px;
-    background:royalblue;
+    background:#295095;
+    padding:10px;
     position:relative;
-    border-top-left-radius:5px;
-    border-top-right-radius:5px;
+    min-height:70px;
+    border-radius:5px 5px 0 0;
 }
 
 #main-header h1 {
     color:white;
-    text-align:center;
+    margin:0;
+    text-align: center;
+    line-height:70px;
 }
 
 #logo {
-    width:15%;
-    margin:auto;
     position:absolute;
-    bottom:-25px;
+    top:0;
+    left:0;
+    max-width:100px;
+    padding:15px;
 }
