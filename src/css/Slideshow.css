@@ -4,7 +4,6 @@
 
 #slideshow img {
     max-width:100%;
-    border:solid 2px red;
 }
 
 .arrow {
@@ -24,4 +23,10 @@
 
 #left-arrow {
     left:5%;
+}
+
+#slideshow img {
+    max-height:200px;
+    display:block;
+    margin:auto;
 }
