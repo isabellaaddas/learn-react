@@ -12,11 +12,13 @@ const Slideshow = () => {
         require.context("./../images/slideshow", false, /\.(png|jpe?g|svg$|webp)/)
     );
 
-    const slideForward = () => {
+    const slideForward = (event) => {
+        event.preventDefault();
         setSlideIndex(slideIndex < images.length - 1 ? slideIndex + 1:0);
     }
     
-    const slideBackward = () => {
+    const slideBackward = (event) => {
+        event.preventDefault();
         setSlideIndex(slideIndex > 0 ? slideIndex - 1:images.length - 1);
     }
 

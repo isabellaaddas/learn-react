@@ -1,6 +1,6 @@
 import "./../css/Header.css";
 // Import the image as an object with reference to its location
-import logo from "./../images/house-logo.png";
+import logo from "./../images/house-logo.jpg";
 
 const Header = () => {
     return (
