@@ -1,14 +1,14 @@
-import "./../css/Home.css";
 import Slideshow from "./../components/Slideshow";
+import HouseList from "../components/HouseList";
+import "./../css/Home.css";
 
 const Home = () => {
-    
     return (
         <main id="home" className="main-content">
             <Slideshow />
+            <HouseList num="3" />
         </main>
     );
 };
 
-// This line lets you export this file content and place it anywhere
 export default Home;
