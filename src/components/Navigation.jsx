@@ -6,7 +6,8 @@ const Navigation = () => {
 
     const [menuOpen,setMenuOpen] = useState(false);
 
-    const toggleMenu = () => {
+    const toggleMenu = (event) => {
+        event.preventDefault();
         setMenuOpen(!menuOpen)
 ;    };
 
